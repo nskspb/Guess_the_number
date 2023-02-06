@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(2_homework CXX)
+project(3_homework CXX)
 
 add_executable(Guess_the_number
         main.cpp
