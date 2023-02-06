@@ -2,8 +2,10 @@
 #include "check_value.h"
 #include "high_scores.h"
 
-int main() {
+int main(int argc, char argv[]) {
 
+    int max_value = 100;
+    if (argc == 2) { max value = argv[2]; }
     std :: string user_name = get_name();
     int attempts_count = check_value();
 

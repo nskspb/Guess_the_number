@@ -3,7 +3,7 @@
 
 int check_value() {
 
-    const int target_value = get_random_value();
+    const int target_value = get_random_value(max_value);
     int current_value = 0;
     int attempts_count = 0;
     while (true) {
