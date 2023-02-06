@@ -3,3 +3,5 @@ roma 9
 asd 7
 fgh 16
 rus 9
+qw 6
+rt 3

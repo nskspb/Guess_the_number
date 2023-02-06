@@ -1,7 +1,7 @@
 #include <iostream>
 #include "random_value.h"
 
-int check_value() {
+int check_value(int max_value) {
 
     const int target_value = get_random_value(max_value);
     int current_value = 0;
