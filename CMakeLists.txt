@@ -7,12 +7,8 @@ add_executable(Guess_the_number
         check_value.cpp
         random_value.cpp
         high_scores.cpp
+        argument.cpp
         )
-
-add_executable(test
-        test.cpp)
-
-
 
 set_target_properties(Guess_the_number PROPERTIES
         CXX_STANDARD 17

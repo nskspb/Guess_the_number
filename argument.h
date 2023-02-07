@@ -1,8 +1,3 @@
-//
-// Created by ubunter on 07.02.23.
-//
+#pragma once
 
-#ifndef GUESS_THE_NUMBER_ARGUMENT_H
-#define GUESS_THE_NUMBER_ARGUMENT_H
-
-#endif //GUESS_THE_NUMBER_ARGUMENT_H
+int arguments(int argc, char** argv, int *max_value);
