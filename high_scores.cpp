@@ -12,7 +12,7 @@ std :: string get_name() {
     return user_name;
 }
 
-int print_results(std :: string high_scores_filename, std :: string user_name, int attempts_count) {
+int print_results(const std :: string& high_scores_filename, const std :: string& user_name, int attempts_count) {
         // We should open the output file in the append mode - we don't want
         // to erase previous results.
         std::ofstream out_file{high_scores_filename, std::ios_base::app};
@@ -30,7 +30,7 @@ int print_results(std :: string high_scores_filename, std :: string user_name, i
     } // end of score here just to mark end of the logic block of code
 
     // Read the high score file and print all results
-    int read_results (std :: string high_scores_filename) {
+    int read_results (const std :: string& high_scores_filename) {
         std::ifstream in_file{high_scores_filename};
         if (!in_file.is_open()) {
             std::cout << "Failed to open file for read: " << high_scores_filename << "!" << std::endl;

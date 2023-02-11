@@ -5,3 +5,8 @@ fgh 16
 rus 9
 lan 6
 win 2
+port 7
+wer 4
+fgh 2
+top 1
+tyu 6
