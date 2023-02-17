@@ -1,4 +1,5 @@
 **/build/*
 **/idea/*
 .idea
+.vscode
 high_scores.txt
